@@ -1,0 +1,29 @@
+.active_email_wrap {
+    background: var(--bg-primary);
+    width: 100% !important;
+    display: flex;
+    flex-direction: column !important;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+.active_email_wrap span , .active_email_wrap a{
+    font-size: 14px;
+}
+.active_email_wrap a {
+    color: var(--blue-color);
+    cursor: pointer;
+    margin-top: 3px;
+}
+.active_email_wrap a:hover{
+    text-decoration: underline;
+}
+.success_text{
+    color: var(--green-color) !important;
+    margin-top: 2px;
+    font-size: 15px;
+}
+.error_text {
+    color: red;
+    margin-top: 2px;
+    font-size: 15px;
+}

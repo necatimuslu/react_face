@@ -1,0 +1,160 @@
+.stories {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(6,105px);
+    gap: 10px;
+    padding: 6px 0;
+   
+    
+}
+.story_card_wrap {
+    position: relative;
+    width: 100%;
+    height: 195px;
+    border-radius: 10px;
+    box-shadow: 0 1px 2px var(--shadow-1);
+    overflow: hidden;
+    background: #fff;
+    cursor: pointer;
+}
+.story_card_wrap img{
+    position: absolute;
+    width: 100%;
+    height: 75%;
+    object-fit: cover;
+    background: var(--bg-forth) !important;
+}
+.plus_story {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--blue-color);
+    padding: 10px;
+    border-radius: 50%;
+    border: 4px solid var(--bg-primary) !important;
+}
+.plus_story:hover {
+    background: rgb(30, 69, 245);
+}
+.story_card_text {
+    position: absolute;
+    top: 85%;
+    left: 10%;
+    font-size: 14px;
+    
+}
+.absolute_story {
+    position: relative;
+    width: 100%;
+    height: 195px;
+    border-radius: 10px;
+    box-shadow: 0 1px 2px var(--shadow-1);
+    overflow: hidden;
+    background: #fff;
+    cursor: pointer;
+}
+.absolute_story img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.absolute_story img:hover {
+   transform: scale(1.1);
+}
+.absolute_story_name {
+    position: absolute;
+    top: 70%;
+    margin-left: 20px;
+    font-size: 14px;
+    color: #fff;
+}
+.absolute_story_profile {
+    position: absolute;
+    top: 5px;
+    overflow: hidden;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    border: 3px solid var(--blue-color);
+}
+.create_story {
+    width: 100%;
+    height: fit-content;
+    margin: 30px 0;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+.icon_create_story {
+    font-size: 22px;
+    color: rgb(71, 144, 240);
+}
+.create_story_header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+.create_story_header img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.create_story_text {
+   
+    background-color:rgb(238, 238, 238);
+    width: 90%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    border-radius: 20px;
+    font-size: 17px;
+    color: rgb(110, 110, 110);
+}
+.create_story_text:hover {
+    background: rgb(214, 214, 214) !important;
+}
+
+.create_story_body {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-between;
+    margin-top: 5px;
+    padding: 5px 25px;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--color-secondary);
+}
+.create_story_nody_item {
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 5px;
+}
+.create_story_splitter {
+    width: 100%;
+    height: 1px;
+    background: var(--bg-third);
+    margin-top: 15px;
+}
+.story_arrow_left {
+    width: 45px;
+    height: 45px;
+    background: var(--bg-primary);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: -5px;
+    top: 50%;
+    transform: translateY(-50%);
+}

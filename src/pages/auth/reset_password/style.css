@@ -1,0 +1,208 @@
+.reset {
+    background: var(--bg-secondary);
+    height: 78vh;
+    padding: 10px 0;
+}
+.reset_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 40px ;
+    background: var(--bg-primary);
+    margin-top: -10px !important;
+}
+.reset_header img {
+    width: 200px;
+}
+.reset_password_wrap {
+    width: 35vw;
+    height: fit-content;
+    border-radius: 10px;
+    background: var(--bg-primary);
+    padding: 10px 15px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+.reset_password_header {
+    padding:  10px;
+    font-size: 25px;
+    font-weight: 700;
+    border-bottom: 1px solid var(--bg-third);
+    margin-bottom: 5px !important;
+}
+.reset_password_text {
+    padding: 5px;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.reset_password_form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid var(--bg-third);
+    
+}
+.reset_password_btn_wrap {
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: flex-end;
+    margin-top: 22px;
+    margin-bottom: 2px;
+   
+}
+.forgot_error {
+    color: red;
+    font-size: 1.5vw;
+    text-align: center;
+}
+.find_user_input_wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.find_user_col_wrap {
+    display: flex;
+    align-items: center;
+   
+    gap: 10px;
+}
+.find_user_col_wrap input {
+    height: 20px;
+    width: 20px;
+}
+.find_user_col {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: flex-start;
+}
+.find_user_col span:first-of-type{
+    font-size: 14px;
+}
+.find_user_col span:last-of-type{
+    font-size: 14px;
+}
+.find_user_find_wrap {
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   margin-top: 20px;
+   margin-bottom: 10px;
+}
+.find_user_find_wrap img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.find_user_find_wrap span:first-of-type{
+    font-size: 14px;
+}
+.find_user_find_wrap span:last-of-type{
+    font-size: 14px;
+}
+.reset_password_form_1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+@media (max-width:1045px) {
+    .reset_change_password_wrap {
+        width: 50vw !important;
+    }
+}
+@media (max-width:930px) {
+    .reset_password_form_1 input {
+        width: 35vw;
+        font-size: 16px;
+    }
+    .reset_password_form_1 .input_error {
+        width: 35vw;
+    }
+}
+@media (min-width:700px) {
+    .find_user_input_wrap {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .reset_password_wrap {
+        max-width: 40vw !important;
+        margin-top: 50px;
+    }
+}
+@media (max-width:975px) {
+    .reset_password_header {
+        font-size: 23px;
+    }
+    .reset_password_text {
+        font-size: 14px;
+    }
+    .reset_password_form input{
+       padding-left: 10px;
+        font-size: 14px !important;
+    }
+}
+@media (max-width:970px) {
+    
+    .input_error_arrow_bottom , .input_error_arrow_top {
+        display: none !important;
+     }
+}
+@media (max-width:910px) {
+    .reset_password_form input{
+        width: 30vw;
+       
+    }
+    .input_error_arrow_bottom , .input_error_arrow_top {
+        display: none !important;
+     }
+}
+@media (max-width:625px) {
+    .reset_password_header {
+        font-size: 20px;
+    }
+    .reset_password_text {
+        font-size: 12px;
+    }
+    .reset_password_form input{
+       padding-left: 10px;
+        font-size: 12px !important;
+    }
+}
+@media (max-width:515px) {
+   
+    .input_error {
+       font-size: 12px !important;
+       height: fit-content;
+    } 
+    .input_error_arrow_bottom , .input_error_arrow_top {
+       display: none !important;
+    }
+   }
+@media (max-width:445px) {
+ .reset_password_btn_wrap {
+    left: 5px !important;
+ } 
+ .input_error {
+    font-size: 12px !important;
+    height: fit-content;
+ } 
+ .input_error_arrow_bottom , .input_error_arrow_top {
+    display: none !important;
+ }
+}
+@media (min-width:900px) {
+    .forgot_error {
+     
+        font-size: 1.2vw !important;
+    }
+}

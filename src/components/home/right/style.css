@@ -1,0 +1,82 @@
+.right_home {
+    position: fixed;
+    top: 56px;
+    right: 0;
+    width: 15vw;
+    height: calc(100vh - 56px);
+    overflow-y: auto;
+    z-index: 1 !important;
+}
+.right_home_sponsor {
+    font-size: 18px;
+    color: var(--color-secondary);
+    font-weight: 600;
+    padding: 15px 10px;
+    
+}
+.right_home_splitter {
+    height: 1px;
+    background: var(--bg-third);
+    margin: 5px 10px;
+}
+.right_home_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 10px;
+    font-size: 18px;
+    color: var(--color-secondary);
+    font-weight: 600;
+    padding: 15px 10px;
+    height: 50px;
+}
+.right_home_icon_wrap {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-right: 10px;
+    font-size: 18px;
+}
+.right_home_circle {
+    width: 25px;
+    height: 25px;
+    display: grid;
+    place-items: center;
+}
+.right_home_circle:hover {
+    width: 25px;
+    height: 25px;
+    background-color: var(--bg-third);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right_home_directory {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.right_home_directory img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.right_home_icon_wrap_1 {
+    width: 55px;
+    height: 55px;
+    background: var(--bg-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 25px;
+    right: 15px;
+    border-radius: 50%;
+}
+.right_home_icon_1 {
+    font-size: 24px;
+}

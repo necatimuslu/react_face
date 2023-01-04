@@ -1,0 +1,245 @@
+/* -------------- Login ---------------- */
+.login_wrapper {
+    background: var(--bg-secondary);
+}
+.login_wrap {
+    height: 78vh;
+}
+.login_1 {
+    width: 300px;
+    margin: 0 auto;
+}
+.login_1 span {
+    font-size: 20px;
+}
+.login_2 {
+    text-align: center;
+}
+.login_2_wrap {
+    width: 350px;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin: 1rem auto;
+    background: var(--bg-primary);
+    border-radius: 10px;
+    padding: 15px 10px;
+    user-select: none;
+}
+.login_2_wrap button {
+    width: 100%;
+    height: 50px;
+    font-size: 17px;
+    font-weight: 600;
+}
+.forgot_password {
+    color: var(--blue-color);
+    font-size: 15px;
+}
+.forgot_password:hover{
+   text-decoration: underline !important;
+}
+.login_splitter {
+    width: 100%;
+    height: 1px;
+    background: var(--bg-third);
+}
+.login_extra {
+    font-size: 15px;
+}
+.signup_btn {
+    width: 70% !important;
+    background: var(--green-color);
+    margin: 1rem auto;
+}
+
+/* -------------- Login ---------------- */
+
+/* ---------------- Register ------------- */
+.register {
+    width: 350px;
+    height: fit-content;
+    background: var(--bg-primary);
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 10px;
+    padding-bottom: 1rem;
+    transform: translate(-50%,-50%);
+}
+.register_header {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--bg-third);
+    margin-bottom: 10px;
+}
+.register_header_icon {
+    position: absolute;
+    right: 7px;
+    font-size: 22px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.register_header span:first-of-type {
+    font-weight: 700;
+    font-size: 28px;
+}
+.register_header span:last-of-type{
+    font-size: 15px;
+    color: var(--color-secondary);
+}
+.register_form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.reg_line {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.reg_col {
+    padding: 0 10px;
+    align-self: flex-start;
+    font-size: 13px;
+    color: var(--color-secondary);
+    margin-top: 10px;
+}
+.reg_line_header {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.reg_grid {
+    margin-top: 10px;
+    width: 100%;
+    height: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    font-size: 15px;
+}
+.reg_grid select {
+    width: 100px;
+   margin-right: 5px;
+   outline: none;
+   display: flex;
+   align-items: center;
+   border-radius: 5px;
+   border: 1px solid var(--bg-third);
+}
+.reg_grid label {
+    width: 100px;
+    margin-right: 5px;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid var(--bg-third);
+    border-radius: 5px;
+    padding: 0 10px;
+    height: 30px;
+    margin-left: -2px;
+}
+.register_extra {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+}
+.register_extra_span {
+    font-size: 13px;
+   
+}
+.register_extra a {
+    color: var(--blue-color);
+    font-size: 13px;
+}
+.register_extra a:hover{
+    text-decoration: underline;
+}
+.register_btn_wrap {
+    width: 100%;
+}
+.signup_btn {
+    font-size: 17px !important;
+    font-family: inherit;
+    font-weight: 700 !important;
+}
+
+.input_error_desktop {
+    position: absolute !important;
+    width: 300px !important;
+    height: 45px !important;
+    left: -18.5rem;
+    margin-top: 10px; 
+    
+   
+}
+.input_error_arrow_left {
+    border-left: 10px solid #b94a48;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    position: absolute;
+    right: -10px;
+}
+.input_error .input_error_message {
+    font-size: 15px !important;
+}
+/* ---------------- Register ------------- */
+
+
+/* ------------- Media Query -------------- */
+@media (min-width:850px) {
+    .login_wrap {
+       display: flex;
+       align-items: center;
+      margin: 0 auto;
+      width: 50%;
+     
+    }
+    .login_1 {
+        margin-right: 3rem;
+        margin-bottom: 15vh;
+    }
+    .login_1 img {
+        width: 300px;
+        margin-left: -1.5rem;
+    }
+    .login_1 span {
+        font-size: 25px;
+    }
+    .login_2_wrap {
+        width: 400px;
+    }
+    .register {
+        width: 400px;
+    }
+    .login_input_wrap {
+        width: 350px !important;
+    }
+    .reg_grid select,
+    .reg_grid label {
+        width: 115px;
+    }
+    .register_extra {
+        padding: 5px;
+       
+    }
+    .register_extra a {
+        font-size: 14px;
+    }
+    .register_extra_span {
+        font-size: 14px;
+    }
+    .register_extra_span a {
+        font-size: 14px;
+    }
+}
+
+/* ------------- Media Query -------------- */
